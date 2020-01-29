@@ -1,6 +1,6 @@
-{% extends 'layout.html' %}
-
-{% block main %}
+{% extends 'bootstrap/base.html' %}
+{% block title %} Blog Index {% endblock %}
+{% block content %}
 <h1>BLOG</h1>
 <table border='1'>
     {% for post in posts %}
