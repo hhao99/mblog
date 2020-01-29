@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block main %}
+
+<h1>{{post.title}}</h1>
+<hr/>
+<h2>
+    {{post.body}}
+</h2>
+<a href="{{ url_for('blog.index') }}">home</a>
+{% endblock %}
